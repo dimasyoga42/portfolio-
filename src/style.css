@@ -23,10 +23,9 @@ body {
   height: 15px;
  margin: auto;
 }
-.profile-header {
+.profile-header img{
     width: 100%;
     height: 250px;
-    background: url("src/img/bg.gif");
     background-size: cover;
     background-position: center;
     display: flex;
