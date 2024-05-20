@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.profile-card {
+    text-align: center;
+    position: relative;
+}
+.sub-name {
+  font-weight: bold;
+  font-size: 25px;
+}
+.priv {
+  width: 15px;
+  height: 15px;
+ margin: auto;
+}
+.profile-header {
+    width: 100%;
+    height: 250px;
+    background: url("/src/img/bg.gif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0px 4px 0px skyblue;;
+}
+
+.profile-body {
+    padding: 20px 10px;
+    position: relative;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    box-shadow: 4px 4px 0px skyblue;/* skyblue*/
+        border: 3px solid skyblue;
+    position: absolute;
+    top: -50px; /* Adjust according to the design */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.profile-box {
+  margin-top: 80px;
+  margin: 80px auto;
+  text-align: center;
+}
+.profile-box small {
+  color: grey;
+}
+.profile-box p {
+  margin: 2% 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.badge {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  
+}
+.badge-item {
+  width: 100px;
+  height: 30px;
+  background: rgba(135, 206, 235, 0.2);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.badge-item:nth-child(2){
+  width: 100px;
+  height: 30px;
+  background: rgba(255, 0, 0, 0.1);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sub-about {
+  width: 50%;
+  height: auto;
+}
+.about-title {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0 2%;
+  color: skyblue;
+}
+.sub-about p {
+  font-size: 16px;
+  padding: 0 2%;
+}
+.sub-exp {
+  width: 50%;
+  height: auto;
+  margin: 2% 0;
+}
+.exp-title {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0 2%;
+  color: skyblue;
+}
+.exp-box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  margin: 1% 1%;
+  padding: 0 2%;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.exp-box:nth-child(1) {
+  background: rgba(255, 187, 0, 0.2)
+}
+.exp-box:nth-child(2) {
+  background: rgba(0, 93, 255, 0.2)
+}
+.exp-box:nth-child(3) {
+  background: rgba(255, 239, 0, 0.2);
+}
+.exp-box:nth-child(4) {
+  background: rgba(0, 199, 255, 0.2)
+}
+.exp {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.sub-scholl {
+  width: 50%;
+  height: auto;
+  margin: 2% 0;
+}
+.school-title {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0 2%;
+  color: skyblue;
+}
+.school-box {
+  width: 95%;
+  margin: 0 2%;
+  height: 100px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+.school-box h2{
+  font-size: 16px;
+  font-weight: bold;
+}
+.school-box small {
+  color: gray;
+  font-size: 12px;
+}
+.school-box p {
+  font-size: 16px;
+}
+.stick {
+  content: "";
+  width: 5px;
+  height: 100px;
+  background: skyblue;
+  margin: 0 1%;
+}
+.footer {
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+}
+.portfolio {
+  width: 50%;
+  height: auto;
+  margin: 2% 0;
+}
+
+.sub-port {
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0 2%;
+  color: skyblue;
+}
+
+
+@media (max-width: 750px ) {
+  .profile-box p {
+  margin: 2% 0;
+  font-family: "Fira Code", monospace;
+  font-size: 12px;
+}
+.badge {
+  font-size: 12px;
+}
+  .sub-about {
+  width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+.about-title {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 2%;
+}
+.sub-about p {
+  font-size: 12px;
+  padding: 0 2%;
+}
+  .sub-exp {
+  width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+.exp-title {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 2%;
+}
+.sub-about p {
+  font-size: 12px;
+  padding: 0 2%;
+}
+.sub-scholl {
+  width: 100%;
+}
+.sub-exp {
+  width: 100%;
+}
+.sub-about {
+  width: 100%;
+}
+.portfolio {
+  width: 100%;
+}
+}
