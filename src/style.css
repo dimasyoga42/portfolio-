@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  
 }
 
 .profile-card {
@@ -226,7 +227,10 @@ body {
   padding: 0 2%;
   color: skyblue;
 }
-
+.comments {
+  margin: 2% 0;
+  width: 50%;
+}
 
 @media (max-width: 750px ) {
   .profile-box p {
@@ -275,6 +279,10 @@ body {
   width: 100%;
 }
 .portfolio {
+  width: 100%;
+}
+.comments {
+  margin: 2% 0;
   width: 100%;
 }
 }
