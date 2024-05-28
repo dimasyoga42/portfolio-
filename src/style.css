@@ -71,8 +71,8 @@ body {
 }
 .badge {
   display: flex;
-  justify-content: center;
   font-size: 16px;
+  margin: 0 2%;
   
 }
 .badge-item {
@@ -231,6 +231,22 @@ body {
   margin: 2% 0;
   width: 50%;
 }
+.sub-box {
+   width: 100%;
+   height: auto;
+   margin: 2% 1%;
+   position: relative;
+   display: flex;
+   
+}
+.sub-box h2{
+   margin: 0 2%;
+   font-size: 16px;
+}
+.sub-box p{
+   margin: 0 2%;
+   font-size: 12px;
+}
 
 @media (max-width: 750px ) {
   .profile-box p {
@@ -282,7 +298,9 @@ body {
   width: 100%;
 }
 .comments {
-  margin: 2% 0;
   width: 100%;
+}
+.sub-box {
+   width: 100%;
 }
 }
