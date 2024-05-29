@@ -277,9 +277,13 @@ body {
    margin: 2% 1%;
    position: relative;
    display: flex;
+   justify-items: center;
+   align-items: center;
 
 }
-
+.sub-text {
+   width: 75%;
+}
 .sub-box h2 {
    margin: 0 2%;
    font-size: 16px;
@@ -287,7 +291,19 @@ body {
 
 .sub-box p {
    margin: 0 2%;
-   font-size: 12px;
+   font-size: 13px;
+}
+.btn {
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   color: skyblue;
+   text-decoration: none;
+   transition: all 100ms;
+   margin: auto;
+}
+.btn:hover {
+   color: #000;
 }
 
 @media (max-width: 750px) {
