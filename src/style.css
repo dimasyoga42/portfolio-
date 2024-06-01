@@ -305,7 +305,27 @@ body {
 .btn:hover {
    color: #000;
 }
-
+.media {
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.media a {
+   text-decoration: none;
+   color: grey;
+   transition: all 200ms;
+}
+.media a:nth-child(1):hover {
+   color: deepskyblue;
+}
+.media a:nth-child(2):hover {
+   color: purple;
+);
+}
+.media a:nth-child(3):hover {
+   color: black;
+}
 @media (max-width: 750px) {
    .profile-box p {
       margin: 2% 0;
